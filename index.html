@@ -73,7 +73,7 @@
     <script>
         async function fetchPDFs() {
             try {
-                const response = await fetch("https://script.google.com/macros/s/AKfycby77jPhJPWcyF4xup7RxsLSGRtFidBJmJWZ4P4VLYeRtlO36AxSdxqPpYBiineSZz2G/exec");
+                const response = await fetch("https://script.google.com/macros/s/AKfycbwt_RsAUKpiIa31OpgNU3E22sg3iqF04QRWAOXj803ONr61_tnmULDG4cq662PAkHTkKg/exec");
                 if (!response.ok) throw new Error("Error al obtener los archivos PDF");
                 const pdfs = await response.json();
                 
